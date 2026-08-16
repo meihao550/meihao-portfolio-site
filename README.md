@@ -1,3 +1,16 @@
+# このプロジェクト
+- 自分のポートフォリオサイトのために作成しています。
+- 今までポートフォリオは、さまざまなサービスに任せていましたが、必要なのかなと思い作成しました。
+
+## ダウンロード
+[このプロジェクトを使えるようにするための説明](#download)
+
+## 構想
+- Vercelを使って無料デプロイを考えている。
+- mdファイルで書き込むことで更新できるようにする
+
+<a id="download"></a>
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
