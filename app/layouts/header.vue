@@ -9,7 +9,7 @@
             class="hover:opacity-70 transition-opacity hover:underline"
             active-class="font-semibold"
           >
-            執筆・記事
+            このサイトについて
           </NuxtLink>
           <NuxtLink
             to="/project"
