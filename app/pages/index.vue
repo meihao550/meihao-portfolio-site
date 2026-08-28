@@ -1,8 +1,8 @@
 <script setup lang="ts">
-definePageMeta({ layout: 'header' })
-
 import { onMounted, onUnmounted, ref, useTemplateRef } from 'vue'
 import type Typed from 'typed.js'
+
+definePageMeta({ layout: 'header' })
 
 const mainStrings = ['高部 紫音', 'KCS大分情報専門学校']
 const subStrings = ['2007/03/27', '大学併修学科']
@@ -58,7 +58,7 @@ onUnmounted(() => {
           class="text-sm md:text-base text-white/70 min-h-[1.5em] transition-opacity duration-300"
           :class="{ 'opacity-0': !displaySub }"
         >
-          {{ displaySub || ' ' }}
+          {{ displaySub }}
         </p>
       </div>
       <div class="mt-8 flex items-center gap-3 text-sm">
@@ -81,7 +81,7 @@ onUnmounted(() => {
       </div>
     </div>
     <div>
-        <p>スクロールしてください</p>
+      <p>スクロールしてください</p>
     </div>
   </section>
 
