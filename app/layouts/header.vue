@@ -6,14 +6,14 @@
         <nav class="flex items-center gap-6 text-sm">
           <NuxtLink
             to="/about"
-            class="hover:opacity-70 transition-opacity"
+            class="hover:opacity-70 transition-opacity hover:underline "
             active-class="font-semibold"
           >
             執筆・記事
           </NuxtLink>
           <NuxtLink
             to="/project"
-            class="hover:opacity-70 transition-opacity"
+            class="hover:opacity-70 transition-opacity hover:underline"
             active-class="font-semibold"
           >
             個人開発メモ
