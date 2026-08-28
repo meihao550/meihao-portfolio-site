@@ -3,5 +3,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image']
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/eslint'],
+  css: ['~/assets/css/main.css'],
+  //ページ遷移にCSSの適用がかのう
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
 })

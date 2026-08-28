@@ -2,12 +2,22 @@
   <div class="relative min-h-screen">
     <header class="absolute top-0 left-0 right-0 z-20 text-white">
       <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        <a href="/" class="text-lg font-semibold tracking-tight">
-          Meihao-Portfolio
-        </a>
+        <NuxtLink to="/" class="text-lg font-semibold tracking-tight"> Meihao-Portfolio </NuxtLink>
         <nav class="flex items-center gap-6 text-sm">
-          <a href="#" class="hover:opacity-70 transition-opacity">執筆・記事</a>
-          <a href="#" class="hover:opacity-70 transition-opacity">個人開発メモ</a>
+          <NuxtLink
+            to="/about"
+            class="hover:opacity-70 transition-opacity hover:underline"
+            active-class="font-semibold"
+          >
+            執筆・記事
+          </NuxtLink>
+          <NuxtLink
+            to="/project"
+            class="hover:opacity-70 transition-opacity hover:underline"
+            active-class="font-semibold"
+          >
+            個人開発メモ
+          </NuxtLink>
         </nav>
       </div>
     </header>
