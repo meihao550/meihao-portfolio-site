@@ -380,6 +380,25 @@ onUnmounted(() => {
       </div>
     </div>
   </section>
+
+  <!-- 個人開発への CTA セクション -->
+  <section class="bg-gray-900 text-white py-24">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 text-center">
+      <p class="text-xs tracking-[0.3em] text-white/50">PROJECTS</p>
+      <h2 class="mt-4 text-4xl md:text-5xl font-bold tracking-tight">個人開発</h2>
+      <p class="mt-6 text-white/70 text-base md:text-lg leading-relaxed">
+        自分で企画・実装しているサービスや実験プロジェクトをまとめています。
+      </p>
+
+      <NuxtLink
+        to="/project"
+        class="group inline-flex items-center gap-2 mt-10 px-8 py-3 bg-white text-gray-900 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+      >
+        プロジェクトを見る
+        <span aria-hidden="true" class="transition-transform group-hover:translate-x-1"> → </span>
+      </NuxtLink>
+    </div>
+  </section>
 </template>
 
 <style scoped>
