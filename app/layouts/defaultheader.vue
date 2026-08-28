@@ -10,7 +10,7 @@
             class="text-gray-700 hover:text-gray-500 transition-colors"
             active-class="text-gray-900 font-semibold"
           >
-            執筆・記事
+            このサイトについて
           </NuxtLink>
           <NuxtLink
             to="/project"

@@ -4,12 +4,7 @@ import type Typed from 'typed.js'
 
 definePageMeta({ layout: 'header' })
 
-const mainStrings = [
-    '高部 紫音', 
-    'KCS大分情報専門学校', 
-    '見つけた脆弱性', 
-    '使える言語'
-]
+const mainStrings = ['高部 紫音', 'KCS大分情報専門学校', '見つけた脆弱性', 'わかる言語']
 
 const subStrings = [
   '2007/03/27',
@@ -32,10 +27,10 @@ const history = [
   { date: '2007.03', description: '誕生日' },
   { date: '2024.03', description: '基本情報技術者取得' },
   { date: '2025.08', description: 'SEA/J CTF for Students 優勝' },
-  { date: '2026.01', description: 'SEA/J情報セキュリティ技術認定基礎コース（CSBM）'},
+  { date: '2026.01', description: 'SEA/J情報セキュリティ技術認定基礎コース（CSBM）取得' },
   { date: '2026.06', description: 'Oracle DBA silver 取得' },
-  { date: '2026.06', description: '株式会社もみじAIインターン参加'},
-  { date: '2026.08', description: 'CVE-2026-73683採番'},
+  { date: '2026.06', description: '株式会社もみじAI長期インターン採用' },
+  { date: '2026.08', description: 'CVE-2026-73683採番' },
   { date: '2026.08', description: 'SEA/J CTF for Students ３位' },
 ]
 
@@ -165,9 +160,40 @@ onUnmounted(() => {
       </ol>
     </div>
   </section>
+  <!--　QiitaやZennでの記事 -->
+  <section class="bg-gray-50 text-gray-900 py-24">
+    <div class="max-w-6xl mx-auto px-6 md:px-8">
+      <p class="text-xs tracking-[0.3em] text-gray-400">ARTICLES</p>
+      <h2 class="mt-4 text-4xl md:text-5xl font-bold tracking-tight">執筆・記事</h2>
+      <p class="text-2xl pt-4 text-gray-600">自分が書いたピックアップした記事を掲載</p>
+
+      <div class="mt-12 grid gap-6 md:grid-cols-2">
+        <ArticleCard
+          url="https://zenn.dev/meihao550/articles/a1561a73696d77"
+          title="CVE取れたので脆弱性の説明と学習したこと リプレイ攻撃の脆弱性 - CVE-2026-73683 -"
+          published-at="2026.08.15"
+        />
+        <ArticleCard
+          url="https://qiita.com/meihao550/items/6d221dfb6b179b2343b8"
+          title="Laravel概要理解から環境構築まで"
+          published-at="2026.04.10"
+        />
+        <ArticleCard
+          url="https://qiita.com/meihao550/items/89a1543ec9f62a7cb677"
+          title="生成AIでよく言われるLLMとは『確率分布』である　-数学嫌いでも理解する！-"
+          published-at="2026.07.23"
+        />
+        <ArticleCard
+          url="https://zenn.dev/meihao550/articles/587a3645fc763a"
+          title="Pythonのif __name__ == '__main__'に10分くらいつまづいた話"
+          published-at="2026.08.12"
+        />
+      </div>
+    </div>
+  </section>
 
   <section>
-    <!-- このセクションでは、使える言語を書く -->
+    <!-- このセクションでは、わかる言語を書く -->
   </section>
 </template>
 
