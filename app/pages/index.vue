@@ -66,21 +66,37 @@ onUnmounted(() => {
           href="https://www.wantedly.com/id/shion_takabe"
           target="_blank"
           rel="noopener"
-          class="px-4 py-2 border border-white/60 rounded-full hover:bg-white hover:text-gray-900 transition-colors"
+          aria-label="Wantedly"
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
         >
-          Wantedly
+          <img
+            src="/images/Wantedly_Mark_BrandColorBG.svg"
+            alt=""
+            width="40"
+            height="40"
+            class="w-full h-full object-cover"
+          />
         </a>
         <a
           href="https://github.com/meihao550"
           target="_blank"
           rel="noopener"
-          class="px-4 py-2 border border-white/60 rounded-full hover:bg-white hover:text-gray-900 transition-colors"
+          aria-label="GitHub"
+          class="group inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/60 hover:bg-white transition-colors"
         >
-          GitHub
+          <NuxtImg
+            src="/images/icons8-github-64.png"
+            alt=""
+            width="24"
+            height="24"
+            class="w-6 h-6 invert group-hover:invert-0 transition-[filter]"
+          />
         </a>
       </div>
     </div>
-    <div>
+    <div
+      class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white/80 text-xs tracking-widest animate-bounce"
+    >
       <p>スクロールしてください</p>
     </div>
   </section>

@@ -1,0 +1,10 @@
+/* ページ遷移トランジション (nuxt.config.ts の pageTransition.name = 'page' と対応) */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 3000ms ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
