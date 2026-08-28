@@ -6,7 +6,7 @@
         <nav class="flex items-center gap-6 text-sm">
           <NuxtLink
             to="/about"
-            class="hover:opacity-70 transition-opacity hover:underline "
+            class="hover:opacity-70 transition-opacity hover:underline"
             active-class="font-semibold"
           >
             執筆・記事

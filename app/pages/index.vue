@@ -5,7 +5,12 @@ import type Typed from 'typed.js'
 definePageMeta({ layout: 'header' })
 
 const mainStrings = ['高部 紫音', 'KCS大分情報専門学校', '見つけた脆弱性', '使える言語']
-const subStrings = ['2007/03/27', '大学併修学科', 'CVE-2026-73683', 'Python TypeScript Java PHP etc...']
+const subStrings = [
+  '2007/03/27',
+  '大学併修学科',
+  'CVE-2026-73683',
+  'Python TypeScript Java PHP etc...',
+]
 
 // typed.jsでタイプライター効果を表現 onMoutedでクライアントで処理させている
 /*
@@ -106,7 +111,6 @@ onUnmounted(() => {
     <div class="max-w-6xl mx-auto px-6 md:px-8 py-24">
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight">実績・資格</h2>
       <!-- このセクションでは、実績や資格を書く　例：2026年3月　〜を取得 -->
-       
     </div>
   </section>
 </template>
