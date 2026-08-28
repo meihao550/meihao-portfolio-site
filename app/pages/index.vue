@@ -4,7 +4,13 @@ import type Typed from 'typed.js'
 
 definePageMeta({ layout: 'header' })
 
-const mainStrings = ['高部 紫音', 'KCS大分情報専門学校', '見つけた脆弱性', '使える言語']
+const mainStrings = [
+    '高部 紫音', 
+    'KCS大分情報専門学校', 
+    '見つけた脆弱性', 
+    '使える言語'
+]
+
 const subStrings = [
   '2007/03/27',
   '大学併修学科',
@@ -21,10 +27,16 @@ const typedElement = useTemplateRef<HTMLElement>('typedEl')
 const displaySub = ref('')
 let typed: Typed | null = null
 
-// 実績・資格のタイムライン。ここに追加していく
+// 歴史のタイムライン。ここに追加していく
 const history = [
-  { date: '2026.04', description: 'サンプルの実績や資格をここに書きます。' },
-  { date: '2026.06', description: '次の項目のサンプル記述。' },
+  { date: '2007.03', description: '誕生日' },
+  { date: '2024.03', description: '基本情報技術者取得' },
+  { date: '2025.08', description: 'SEA/J CTF for Students 優勝' },
+  { date: '2026.01', description: 'SEA/J情報セキュリティ技術認定基礎コース（CSBM）'},
+  { date: '2026.06', description: 'Oracle DBA silver 取得' },
+  { date: '2026.06', description: '株式会社もみじAIインターン参加'},
+  { date: '2026.08', description: 'CVE-2026-73683採番'},
+  { date: '2026.08', description: 'SEA/J CTF for Students ３位' },
 ]
 
 onMounted(async () => {
@@ -118,8 +130,10 @@ onUnmounted(() => {
     <div class="max-w-6xl mx-auto px-6 md:px-8">
       <p class="text-xs tracking-[0.3em] text-gray-400">HISTORY</p>
       <h2 class="mt-4 text-4xl md:text-5xl font-bold tracking-tight">
+        <!-- 最初の方をsplitして取り出す。-->
         Started in {{ history[0]?.date.split('.')[0] }}
       </h2>
+      <p class="pt-4">資格や実績を簡単に紹介</p>
     </div>
 
     <!-- 横スクロールのタイムライン -->
