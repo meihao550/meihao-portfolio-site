@@ -11,12 +11,21 @@ const projects: Project[] = [
     detailedDescription:
       '学校の仲間を誘ってPMをやっています。知り合いの顧客の問題解決のために、いろいろな技術に触れながらコーディングにも加担しています',
     isPrivate: true,
-    tags: ['Python', 'FastAPI', 'OR-Tools CP-SAT', 'SqlAlchemy', 'Alembic', 'チーム開発', 'docker + devcontainer'],
+    tags: [
+      'Python',
+      'FastAPI',
+      'OR-Tools CP-SAT',
+      'SqlAlchemy',
+      'Alembic',
+      'チーム開発',
+      'docker + devcontainer',
+    ],
   },
   {
     name: 'Esperant',
     shortDescription: '大学生向けのコミュニティサイト',
-    detailedDescription: 'レポートをAIに評価して、おかしい文章がないかをチェックしたり、大学生同士でコミュニケーションを取れるサイトです。',
+    detailedDescription:
+      'レポートをAIに評価して、おかしい文章がないかをチェックしたり、大学生同士でコミュニケーションを取れるサイトです。',
     url: 'https://github.com/meihao550/Esperant',
     tags: ['Laravel', 'PHP', 'Socialite', 'React'],
   },
