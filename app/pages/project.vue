@@ -9,23 +9,23 @@ const projects: Project[] = [
     name: 'AI-Shifts-Management',
     shortDescription: 'AI（数理最適化）でシフトを自動生成するアプリ',
     detailedDescription:
-      'ここに詳細な説明を書きます。技術構成・工夫した点・つまづいた点などを記載。',
+      '学校の仲間を誘ってPMをやっています。知り合いの顧客の問題解決のために、いろいろな技術に触れながらコーディングにも加担しています',
     isPrivate: true,
-    tags: ['Python', 'FastAPI', 'OR-Tools CP-SAT'],
+    tags: ['Python', 'FastAPI', 'OR-Tools CP-SAT', 'SqlAlchemy', 'Alembic', 'チーム開発', 'docker + devcontainer'],
   },
   {
     name: 'Esperant',
     shortDescription: '大学生向けのコミュニティサイト',
-    detailedDescription: 'ここに詳細な説明を書きます。',
+    detailedDescription: 'レポートをAIに評価して、おかしい文章がないかをチェックしたり、大学生同士でコミュニケーションを取れるサイトです。',
     url: 'https://github.com/meihao550/Esperant',
-    tags: ['Vue', 'Nuxt'],
+    tags: ['Laravel', 'PHP', 'Socialite', 'React'],
   },
   {
     name: 'MoneyManagementApp',
     shortDescription: '個人の家計や資金を管理するアプリ',
-    detailedDescription: 'ここに詳細な説明を書きます。',
+    detailedDescription: '自分の浪費癖が激しいので管理するためのサイトを作成しました。',
     url: 'https://github.com/meihao550/MoneyManagementApp',
-    tags: ['TypeScript'],
+    tags: ['TypeScript', 'Vue.js'],
   },
 ]
 
