@@ -56,7 +56,7 @@ const techStack = [
   },
   {
     category: 'インフラ',
-    items: ['Terraform', 'GCP Cloud Run', 'Docker', 'Vercel', 'GitHub Actions'],
+    items: ['Terraform', 'GCP Cloud Run', 'AWS', 'Docker', 'Vercel', 'GitHub Actions'],
   },
   {
     category: 'その他',
@@ -103,7 +103,7 @@ const history = [
   { date: '2025.08', description: 'SEA/J CTF for Students 優勝' },
   { date: '2026.01', description: 'SEA/J情報セキュリティ技術認定基礎コース（CSBM）取得' },
   { date: '2026.06', description: 'Oracle DBA silver 取得' },
-  { date: '2026.06', description: '株式会社もみじAI長期インターン採用' },
+  { date: '2026.06', description: '株式会社もみじAI長期インターン開始' },
   { date: '2026.08', description: 'CVE-2026-73683採番' },
   { date: '2026.08', description: 'SEA/J CTF for Students ３位' },
 ]
@@ -188,11 +188,9 @@ onUnmounted(() => {
         </a>
       </div>
     </div>
-    <!-- アニメーションをつけるためのdivタグ -->
-    <div
-      class="absolute bottom-12 left-1/2 -translate-x-1/2 z-10 text-white/80 text-xs animate-bounce"
-    >
-      <p>スクロールしてください</p>
+    <!-- animate-bounceでアニメーションを定義 -->
+    <div class="absolute bottom-12 left-1/2 z-10 text-white/80 text-xs animate-bounce">
+      <p>スクロールして次に進む</p>
     </div>
   </section>
 
