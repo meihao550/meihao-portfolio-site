@@ -26,11 +26,11 @@ let typed: Typed | null = null
 const oss = [
   {
     url: 'https://github.com/vuejs/router/pull/2789',
-    description: 'ここに貢献内容の概要を書きます。',
+    description: 'Nuxtレンダリング時のNull発生によるバグ修正',
   },
   {
     url: 'https://github.com/laravel/socialite/pull/789',
-    description: 'ここに貢献内容の概要を書きます。',
+    description: 'nonce欠如のバグ修正',
   },
 ]
 
